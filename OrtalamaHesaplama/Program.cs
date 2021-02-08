@@ -13,9 +13,8 @@ namespace OrtalamaHesaplama
             OrtalamaManager ortalama2 = new GeometrikOrtalama();
             OrtalamaManager ortalama3 = new IzometrikOrtalama();
 
-            ortalama1.hesapla(8, 4);
-            ortalama2.hesapla(8, 4);
-            ortalama3.hesapla(8, 4);
+            HesaplamaManager hesaplamaManager = new HesaplamaManager();
+            hesaplamaManager.Hesaplama(ortalama1, 8, 4);
 
 
 

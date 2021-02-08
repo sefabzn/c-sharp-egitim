@@ -7,6 +7,7 @@ namespace OrtalamaHesaplama
      interface OrtalamaManager
     {
         void hesapla(int sayi1, int sayi2);
+       
     }
     
     
